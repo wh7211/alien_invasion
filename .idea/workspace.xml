@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae9768dc-f8b8-4d28-9e1d-8930124e63e0" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/alien.py" beforeDir="false" afterPath="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/alien.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/ship.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,17 +13,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/py002$alien_invasion__7_.coverage" NAME="alien_invasion (7) Coverage Results" MODIFIED="1553846049804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/13-1 星星" />
     <SUITE FILE_PATH="coverage/py002$alien_invasion__3_.coverage" NAME="alien_invasion (3) Coverage Results" MODIFIED="1553845198069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/13-3 雨滴" />
     <SUITE FILE_PATH="coverage/py002$alien_invasion__4_.coverage" NAME="alien_invasion (4) Coverage Results" MODIFIED="1553845393843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/12-3 火箭" />
-    <SUITE FILE_PATH="coverage/mypy$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1554002708686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨" />
+    <SUITE FILE_PATH="coverage/mypy$alien_invasion.coverage" NAME="1 最终代码 Coverage Results" MODIFIED="1554127900026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码" />
     <SUITE FILE_PATH="coverage/py002$alien_invasion__1_.coverage" NAME="alien_invasion (1) Coverage Results" MODIFIED="1553844865699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/12-5 侧面射击" />
     <SUITE FILE_PATH="coverage/mypy$alien_invasion__2_.coverage" NAME="12-3 火箭 Coverage Results" MODIFIED="1553996268748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/alien_invasion/12-3 火箭" />
+    <SUITE FILE_PATH="coverage/py002$alien_invasion__2_.coverage" NAME="alien_invasion (2) Coverage Results" MODIFIED="1553845104164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/12-4 按键" />
+    <SUITE FILE_PATH="coverage/mypy$alien_invasion__1_.coverage" NAME="12-2 游戏角色 Coverage Results" MODIFIED="1553996272840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/alien_invasion/12-2 游戏角色" />
+    <SUITE FILE_PATH="coverage/py002$alien_invasion__7_.coverage" NAME="alien_invasion (7) Coverage Results" MODIFIED="1553846049804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/13-1 星星" />
     <SUITE FILE_PATH="coverage/py002$alien_invasion__6_.coverage" NAME="alien_invasion (6) Coverage Results" MODIFIED="1553845849917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/12-1 蓝色天空" />
     <SUITE FILE_PATH="coverage/mypy$13_4_.coverage" NAME="13-4 连绵细雨 Coverage Results" MODIFIED="1554105617060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨" />
     <SUITE FILE_PATH="coverage/py002$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1553846391114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码" />
-    <SUITE FILE_PATH="coverage/py002$alien_invasion__2_.coverage" NAME="alien_invasion (2) Coverage Results" MODIFIED="1553845104164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/12-4 按键" />
-    <SUITE FILE_PATH="coverage/mypy$alien_invasion__1_.coverage" NAME="12-2 游戏角色 Coverage Results" MODIFIED="1553996272840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/alien_invasion/12-2 游戏角色" />
+    <SUITE FILE_PATH="coverage/mypy$ship.coverage" NAME="ship Coverage Results" MODIFIED="1554124741017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码" />
     <SUITE FILE_PATH="coverage/py002$alien_invasion__5_.coverage" NAME="alien_invasion (5) Coverage Results" MODIFIED="1553845735870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python从入门到实践/12-2 游戏角色" />
   </component>
   <component name="DatabaseView">
@@ -44,28 +46,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨/alien_invasion.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/alien.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="22" column="60" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="60" />
+            <state relative-caret-position="304">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/alien_invasion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨/alien.py">
+        <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/bullet.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨/game_functions.py">
+        <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/game_functions.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨/settings.py">
+        <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/settings.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/ship.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -119,8 +139,6 @@
         <option value="$PROJECT_DIR$/python从入门到实践/12-1 蓝色天空/settings.py" />
         <option value="$PROJECT_DIR$/python从入门到实践/12-1 蓝色天空/alien_invasion.py" />
         <option value="$PROJECT_DIR$/python从入门到实践/13-1 星星/alien_invasion.py" />
-        <option value="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/alien.py" />
-        <option value="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/ship.py" />
         <option value="$PROJECT_DIR$/python从入门到实践/alien_invasion/12-1 蓝色天空/alien_invasion.py" />
         <option value="$PROJECT_DIR$/python从入门到实践/alien_invasion/12-1 蓝色天空/game_functions.py" />
         <option value="$PROJECT_DIR$/python从入门到实践/alien_invasion/12-4 按键/game_functions.py" />
@@ -134,6 +152,8 @@
         <option value="$PROJECT_DIR$/python从入门到实践/alien_invasion/13-2 更逼真的星星/game_functions.py" />
         <option value="$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨/alien_invasion.py" />
         <option value="$PROJECT_DIR$/python从入门到实践/alien_invasion/13-3 雨滴/alien_invasion.py" />
+        <option value="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/ship.py" />
+        <option value="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/alien.py" />
       </list>
     </option>
   </component>
@@ -149,10 +169,7 @@
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -173,7 +190,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.13-4 连绵细雨">
+  <component name="RunManager" selected="Python.1 最终代码">
+    <configuration name="1 最终代码" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py002" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/alien_invasion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="12-1 蓝色天空" type="PythonConfigurationType" factoryName="Python">
       <module name="py002" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -372,6 +411,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ship" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py002" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/ship.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.13-4 连绵细雨" />
       <item itemvalue="Python.13-2 更逼真的星星" />
@@ -382,7 +443,15 @@
       <item itemvalue="Python.12-5 侧面射击" />
       <item itemvalue="Python.13-1 星星" />
       <item itemvalue="Python.13-3 雨滴" />
+      <item itemvalue="Python.ship" />
+      <item itemvalue="Python.1 最终代码" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.1 最终代码" />
+        <item itemvalue="Python.ship" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -407,12 +476,16 @@
       <workItem from="1553846339294" duration="719000" />
       <workItem from="1553994712687" duration="48000" />
       <workItem from="1553994811648" duration="8338000" />
-      <workItem from="1554105536700" duration="340000" />
+      <workItem from="1554105536700" duration="939000" />
+      <workItem from="1554124658881" duration="23000" />
+      <workItem from="1554124688702" duration="813000" />
+      <workItem from="1554127955614" duration="869000" />
+      <workItem from="1554128935127" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59531000" />
+    <option name="totallyTimeSpent" value="61886000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,14 +498,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978102" weight="0.14115308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24983433" />
       <window_info id="Favorites" order="2" sideWeight="0.50218976" side_tool="true" weight="0.14115308" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35036495" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35036495" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -462,32 +534,6 @@
     <entry file="file://$PROJECT_DIR$/python从入门到实践/12-1 蓝色天空/ship.py" />
     <entry file="file://$PROJECT_DIR$/python从入门到实践/12-1 蓝色天空/settings.py" />
     <entry file="file://$PROJECT_DIR$/python从入门到实践/13-1 星星/alien_invasion.py" />
-    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/game_functions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/alien.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/bullet.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/settings.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/ship.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/alien_invasion.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/12-1 蓝色天空/ship.py" />
     <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/12-1 蓝色天空/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -745,9 +791,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨/game_functions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨/alien_invasion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="361">
           <caret line="22" column="60" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="60" />
         </state>
       </provider>
@@ -755,11 +807,35 @@
     <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨/alien.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨/game_functions.py">
+    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/alien.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/bullet.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/13-4 连绵细雨/settings.py">
+    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/game_functions.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/ship.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python从入门到实践/alien_invasion/1 最终代码/alien_invasion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
