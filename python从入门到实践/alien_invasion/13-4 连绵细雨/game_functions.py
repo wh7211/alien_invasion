@@ -75,15 +75,39 @@ def create_fleet(ai_settings, screen, aliens):
             create_alien(ai_settings, screen, aliens, alien_number,
                             row_number)
 
+def create_oneline_fleet(ai_settings, screen, aliens):
+    """创建外星人群"""
+    # 创建一个外星人，并计算每行可容纳多少个外星人
+
+    alien = Alien(ai_settings, screen)
+    number_aliens_x = get_number_aliens_x(ai_settings, alien.rect.width)
+
+
+    # 创建外星人群
+    # 创建第一行外星人
+    for alien_number in range(number_aliens_x):
+        create_alien(ai_settings, screen, aliens, alien_number,
+                            0)
+
 
 def update_aliens(ai_settings, aliens):
     """
     检查是否有外星人位于屏幕边缘，并更新整群外星人的位置
     """
+    screen = pygame.display.set_mode(
+        (ai_settings.screen_width, ai_settings.screen_height))
+    alien = Alien(ai_settings, screen)
+    number_aliens_x = get_number_aliens_x(ai_settings, alien.rect.width)
+
     aliens.update()
 
+    aliens_flag = 0
     # 删除已消失的雨滴
     for alien in aliens.copy():
         if alien.rect.bottom >= ai_settings.screen_height:
             aliens.remove(alien)
-    # print(len(aliens))
+            aliens_flag += 1
+            if aliens_flag >= number_aliens_x:
+                aliens_flag = 0
+                create_oneline_fleet(ai_settings, screen, aliens)
+    print(len(aliens))
