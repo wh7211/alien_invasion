@@ -4,6 +4,8 @@
 import sys
 import pygame
 from alien import Alien
+from random import randint
+
 
 
 def check_keydown_events(event, ai_settings, screen):
@@ -54,9 +56,13 @@ def create_alien(ai_settings, screen, aliens, alien_number, row_number):
     """创建一个外星人并将其放在当前行"""
     alien = Alien(ai_settings, screen)
     alien_width = alien.rect.width
-    alien.x = alien_width + 2 * alien_width * alien_number
+    alien_height = alien.rect.height
+    available_space_x = ai_settings.screen_width - 2 * alien_width
+    available_space_y = (ai_settings.screen_height -
+                         (3 * alien_height))
+    alien.x = randint(alien_width, available_space_x)
     alien.rect.x = alien.x
-    alien.rect.y = alien.rect.height + 2 * alien.rect.height * row_number
+    alien.rect.y = randint(alien_height, available_space_y)
     aliens.add(alien)
 
 
