@@ -3,7 +3,7 @@
 
 """
 
-# 13-4 连绵细雨：修改为完成练习 13-3 而编写的代码，使得一行雨滴消失在屏幕底端后，屏幕顶端又出现一行新雨滴，并开始往下落。
+13-4 连绵细雨：修改为完成练习 13-3 而编写的代码，使得一行雨滴消失在屏幕底端后，屏幕顶端又出现一行新雨滴，并开始往下落。
 
 """
 
@@ -34,7 +34,7 @@ def run_game():
     # 开始游戏的主循环
     while True:
         gf.check_events(ai_settings, screen)
-        gf.update_aliens(ai_settings, aliens)
+        gf.update_aliens(ai_settings, aliens, screen)
         gf.update_screen(ai_settings, screen, aliens)
 
 

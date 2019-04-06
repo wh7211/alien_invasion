@@ -15,6 +15,3 @@ class Settings():
 
         # 外星人设置
         self.fleet_drop_speed = 1
-
-        self.aliens_flag = 0
-
