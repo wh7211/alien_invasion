@@ -5,6 +5,7 @@ import pygame
 from pygame.sprite import Sprite
 
 
+
 class Alien(Sprite):
     """表示单个外星人的类"""
 
@@ -24,15 +25,12 @@ class Alien(Sprite):
 
         # 存储外星人的准确位置
         self.x = float(self.rect.x)
-
-
-    def blitme(self):
-        """在指定位置绘制外星人"""
-        self.screen.blit(self.image, self.rect)
+        self.y = float(self.rect.y)
 
 
     def update(self):
         """向左或向右移动外星人"""
         self.x += 0
         self.rect.x = self.x
-        self.rect.y += self.ai_settings.fleet_drop_speed
+        self.y += self.ai_settings.fleet_drop_speed
+        self.rect.y = self.y
