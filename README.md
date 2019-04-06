@@ -1,8 +1,8 @@
+<font face='宋体' color=black size=4>
 # mypy
 
 # python代码实例
 
-[TOC]
 
 
 # 一、目录结构说明
@@ -14,4 +14,4 @@
 
 # 二、联系方式
 
-
+</font>
