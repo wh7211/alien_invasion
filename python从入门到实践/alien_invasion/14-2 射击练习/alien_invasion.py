@@ -45,12 +45,9 @@ def run_game():
 
     # 创建一个用于存储子弹的编组
     bullets = Group()
-
     alien = Alien(ai_settings, screen)
 
 
-    # 创建外星人群
-    gf.create_alien(ai_settings, screen)
 
     # 开始游戏的主循环
     while True:
@@ -58,7 +55,7 @@ def run_game():
 
         if stats.game_active:
             ship.update()
-            gf.update_bullets(ai_settings, screen, stats, ship, alien, bullets)
+            gf.update_bullets(stats, ship, alien, bullets)
             gf.update_alien(ai_settings, alien)
         gf.update_screen(ai_settings, screen, stats, ship, alien, bullets, play_button)
 

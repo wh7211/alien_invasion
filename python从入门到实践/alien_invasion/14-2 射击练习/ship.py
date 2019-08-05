@@ -21,6 +21,7 @@ class Ship():
         self.rect.left = self.screen_rect.left
         self.rect.centery = self.screen_rect.centery
 
+
         # 在飞船的属性center中存储小数值
         self.center_y = float(self.rect.centery)
 
@@ -45,3 +46,6 @@ class Ship():
         """在指定位置绘制飞船"""
         self.screen.blit(self.image, self.rect)
 
+    def center_ship(self):
+        """让飞船在屏幕上居中"""
+        self.center_y = self.screen_rect.centery

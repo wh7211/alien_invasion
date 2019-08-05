@@ -72,7 +72,7 @@ def check_play_button(ai_settings, screen, stats, play_button, ship, aliens,
         # 创建一群新的外星人，并让飞船居中
         create_fleet(ai_settings, screen, ship, aliens)
         ship.center_ship()
-
+        
 
 def update_screen(ai_settings, screen, stats, ship, aliens, bullets,
         play_button):
