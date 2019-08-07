@@ -1,0 +1,81 @@
+#!/usr/local/python365/bin/python3
+# -*- coding:utf-8 -*-
+
+import sys
+import pygame
+from alien import Alien
+from random import randint
+
+
+def check_keydown_events(event, ai_settings, screen):
+    """响应按键"""
+    if event.key == pygame.K_q:
+        sys.exit()
+
+
+def check_events(ai_settings, screen):
+    """响应按键和鼠标事件"""
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            sys.exit()
+
+        elif event.type == pygame.KEYDOWN:
+            check_keydown_events(event, ai_settings, screen)
+
+
+def update_screen(ai_settings, screen, aliens):
+    """更新屏幕上的图像，并切换到新屏幕"""
+    # 每次循环时都重绘屏幕
+    screen.fill(ai_settings.bg_color)
+
+    # 在屏幕上绘制编组中的每个外星人
+    aliens.draw(screen)
+
+    # 让最近绘制的屏幕可见
+    pygame.display.flip()
+
+
+def get_number_aliens_x(ai_settings, alien_width):
+    """计算每行可容纳多少个外星人"""
+    available_space_x = ai_settings.screen_width - 2 * alien_width
+    number_aliens_x = int(available_space_x / (2 * alien_width))
+    return number_aliens_x
+
+
+def get_number_rows(ai_settings, alien_height):
+    """计算屏幕可容纳多少行外星人"""
+    available_space_y = (ai_settings.screen_height -
+        (3 * alien_height))
+    number_rows = int(available_space_y / (2 * alien_height))
+    return number_rows
+
+
+def create_alien(ai_settings, screen, aliens):
+    """创建一个外星人并将其放在当前行"""
+    alien = Alien(ai_settings, screen)
+    alien_width = alien.rect.width
+    alien_height = alien.rect.height
+    available_space_x = ai_settings.screen_width - 2 * alien_width
+    available_space_y = (ai_settings.screen_height -
+                         (3 * alien_height))
+    alien.x = randint(alien_width, available_space_x)
+    alien.rect.x = alien.x
+    alien.rect.y = randint(alien_height, available_space_y)
+    aliens.add(alien)
+
+
+def create_fleet(ai_settings, screen, aliens):
+    """创建外星人群"""
+    # 创建一个外星人，并计算每行可容纳多少个外星人
+    alien = Alien(ai_settings, screen)
+    number_aliens_x = get_number_aliens_x(ai_settings, alien.rect.width)
+    number_rows = get_number_rows(ai_settings, alien.rect.height)
+
+
+    # 创建外星人群
+    for row_number in range(number_rows):
+        # 创建第一行外星人
+        for alien_number in range(number_aliens_x):
+            create_alien(ai_settings, screen, aliens)
+
+
