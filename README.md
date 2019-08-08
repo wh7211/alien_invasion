@@ -1,15 +1,15 @@
 <font face='宋体' color=black size=4>
 
-# mypy
+# alien_invasion
 
-# python代码实例
+# 《Python编程：从入门到实践》之“外星人入侵”
 
 
 
 # 一、目录结构说明
 
-- mytest：测试代码，可以忽略
-- python从入门到实践：“原书-第二部分 项目-动手试一试”的全部代码答案
+- 完整项目代码
+- “动手试一试”答案
 - venv：python3.7.2环境
 
 
